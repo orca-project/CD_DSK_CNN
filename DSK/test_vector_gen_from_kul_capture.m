@@ -1,3 +1,5 @@
+% Author: Xianjun Jiao, imec, Belgium, xianjun.jiao@imec.be
+
 function [result_filename_I,result_filename_Q,result_filename_busy_flag_bin] = test_vector_gen_from_kul_capture(mat_filename, num_slot, slot_len)
 % mat_filename: KUL captured file
 
