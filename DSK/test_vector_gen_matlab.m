@@ -1,3 +1,5 @@
+% Author: Xianjun Jiao, imec, Belgium, xianjun.jiao@imec.be
+
 function [result_filename_I,result_filename_Q,result_filename_busy_flag_bin] = test_vector_gen_matlab(mat_filename, num_slot, slot_len, varargin)
 % mat_filename: KUL captured file. Or [40 50], [40 80], [60 90] like array
 % to generate data by Matlab
