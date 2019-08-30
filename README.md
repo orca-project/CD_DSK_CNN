@@ -1,6 +1,4 @@
-# CD_DSK_CNN
-
-**Instantaneous Signal Collision Detection UsingIn-Band Full-Duplex: Machine Learning VSDomain-specific Knowledge**
+# Instantaneous Signal Collision Detection UsingIn-Band Full-Duplex: Machine Learning VSDomain-specific Knowledge
 
 Please find README in DSK and CNN directories respectively.
 
