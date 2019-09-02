@@ -5,7 +5,7 @@ Data: 01.09.2019
 Verified on:
 
 * Python 2.7.15+
-* Tensorflow 1.14.0
+* Tensorflow 1.14.0 
 * Ubuntu 18.04.3 (64bit)
 ----------------------
 
@@ -19,17 +19,18 @@ Similarly, one may generate the test vector by Matlab (simulated data based) usi
 
 ---------------------
 
-To execute CNN model, run the following command in a terminal:
+Find the executabl file in TestModelCM.ZIP. 
+To execute the CNN model, run the following command in a terminal:
 
- ./TestModelCM 160 Filename_I FileName_Q SIC_Level
+$ ./TestModelCM 160 Filename_I FileName_Q SIC_Level
 
 * Example:
 
-	./TestModelCM 160 2dbm_40dbm_75dbm_2048slot_len160_I.bin 2dbm_40dbm_75dbm_2048slot_len160_Q.bin 40
+	$ ./TestModelCM 160 2dbm_40dbm_75dbm_2048slot_len160_I.bin 2dbm_40dbm_75dbm_2048slot_len160_Q.bin 40
 		
 * Example:
 
-	./TestModelCM 160 2dbm_60dbm_75dbm_2048slot_len160_I.bin 2dbm_60dbm_75dbm_2048slot_len160_Q.bin 60
+	$ ./TestModelCM 160 2dbm_60dbm_75dbm_2048slot_len160_I.bin 2dbm_60dbm_75dbm_2048slot_len160_Q.bin 60
 
 The script saves the prediction in OutPut.bin file. 
 
@@ -45,9 +46,11 @@ You can TestResults function in Matlab to estimate the accuracy.
 
 The CNN model can calculate the performance directly:
 
+$ ./TestModelCM 160 Filename_I FileName_Q SIC_Level FileName_answer
+
 * Example:
 
-	./TestModelCM 160 2dbm_40dbm_75dbm_2048slot_len160_I.bin 2dbm_40dbm_75dbm_2048slot_len160_Q.bin 40 2dbm_40dbm_75dbm_2048slot_len160_answer.bin
+	$ ./TestModelCM 160 2dbm_40dbm_75dbm_2048slot_len160_I.bin 2dbm_40dbm_75dbm_2048slot_len160_Q.bin 40 2dbm_40dbm_75dbm_2048slot_len160_answer.bin
 
 
 
